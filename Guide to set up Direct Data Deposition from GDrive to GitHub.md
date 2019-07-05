@@ -1,4 +1,4 @@
-# Data Upload Tool guide #
+# Guide to set up Direct Data Deposition from Google Drive to GitHub #
 This guide will help you to make your own server which runs on Linux and automatically synchronizes data from Google Drive to GitHub repository. If you won't encounter any errors, this procedures should take about 2-3 hours. 
 
 The guide is written up in a way that no prior expertise is needed with Linux or using remote servers.
