@@ -12,7 +12,11 @@ Zoltan Kekecs - ELTE and Lund University
 Contact Zoltan Kekecs via kekecs.zoltan@gmail.com
 
 ## I. Setting up a server with Ubuntu Linux ##
-Register an account at Digital Ocean through referral link https://m.do.co/c/9f9d58f02cb0
+
+This guide is written up presuming that you will use a DigitalOcen Droplet with Ubuntu Linux running on the server. Most of this guide should work on other types of servers as well, as long as the server runs Ubuntu Linux, but we only tested the guide so far with DigitalOcen Droplet.
+You can get a free 60 day trial by clicking on the following referral code. Disclosure: if you spend 25 USD after setting up your server using this link, I would get a one time 25 USD credit on my DigitalOcean account. 
+https://m.do.co/c/9f9d58f02cb0
+(Or, if you don’t want to use our referral link for some reason, you can use the following link for the same free trial: https://try.digitalocean.com/performance/)
 
 Confirm email address provided through link received via email
 
@@ -22,19 +26,33 @@ a loading sign appears in place of the button, and then the "Save card" button r
 What you have to do, if this happens, is to go to your DigitalOcean page and check that your card has actually been accepted by looking into the Account>Billing section.
 
 Now it is time to create a new Droplet.
+
 While you are on your Digital Ocean page, click the green "Create" button in the top right and choose "Droplets".
+
 Make the following choices in the menu that follows:
+
 "Choose an Image" -> Ubuntu 16.04.6 x64. Or whatever is the closest thing to it. Updates happen.
+
 "Plan option" -> *Standard*. Not that you have a choice.
+
 $5/month, $0.007/hour, 1 GB/1 CPU, 25 GB SSD disk, 1000 GB transfer
+
 You don't need Backups. Probably.
+
 You don't need to add block storage.
+
 "Choose a datacenter region": Whatever works best for you. Consider distance (affecting the data transfer speed) and ethical/legal issues related to sensible data storage (servers located in certain contries might be okay or not depending on your country/university/journal policy on the matter).
+
 "Select additional options": Do not select any.
+
 "Add your SSH keys": Ignore the step
+
 "How many droplets"? 1.
+
 "Choose a hostname". You'll read this name later, and you probably won't remember what it referres to. I would recommend something like "Droplet(ProjectName)".
+
 Et voilá. Droplet done.
+
 Write down some basic information for your own future reference:
 ```
 	Droplet Name: [ProjectName] DirectDataDeposition
