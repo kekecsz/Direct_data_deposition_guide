@@ -343,7 +343,7 @@ User:	root@[Droplet_Name]:/# ssh-add /root/.ssh/id_rsa
 Console:Identity added: root/.ssh/id_rsa (root/.ssh/id_rsa)
 User:	root@[Droplet_Name]:/# cat /root/.ssh/id_rsa.pub
 Console:
-	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7inJT0m5VwBWGAdMe0/Il+i/aWwUPZ45h92IJoSgyVICZwLcGznRfdcwWeOHnLiR7Zk3L/zlIEMpZHxMNmrQ5cgqaWilAcfOYF//BuG2SkeuuILI9xx3TWbpfuHlxiQ+zNhNLiqBPkRI5Mv/Yl9iO2SR7Cm3VyUDz1ulHLBE6+BMgkA37YELjwHJlxqASI6h9+wj/KzYK7r6fB6uorQaYwViBY/6HTwcheKXwK4j7bvattG0r4A+ucgOFsxYiHpMP3Vx6Jmk6RdQTUDu1IQ7lDuXMVYczVa04rgvhbymZhRuKR7EPTate4GZulf97U70M1KTqPKmQ33y0u0BuTluLIhgn+fO6cznLSmTQvWsipmxz/jF4H8/AUSMl+dMMOtdRL5K7UnLuL9j9uxymb9/dTTsgeBXZB4uk+l6qAlckajwUKSnWUpJMQC0ogaMLmB+eVIlRJv5eAxy0PSo5M/NB7LsO7PffnJbUPXrTeWV23cPGHCEtxiz5vTbse1m2G4lNeTC0vOJ/DE93dzceRb13tbjk1qqPiyfAjLmURRPdKVoQ1Eg8dVmoEKOWaytwjmY4+ZZMEcdBcD1xBNIhFHH80uYhYUWJA79R3+9LefK0pVSnb86gPyOtZ03d0EtCpO81dyHrvgYzcXb3G2PpD2yrOSQYrIDaGNYa0qNXAm1cRw== [Github_Email]
+	ssh-rsa AA...[Extremely long string of characters wereommited here]...Rw== [Github_Email]
 ```
 This long string of text is the SHH key.
 1. Leave PuTTY
