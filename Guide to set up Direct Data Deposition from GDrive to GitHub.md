@@ -8,6 +8,9 @@ Endre Csikós - ELTE
 
 Zoltan Kekecs - ELTE and Lund University
 
+## Correspondance
+Contact Zoltan Kekecs via kekecs.zoltan@gmail.com
+
 ## I. Setting up a server with Ubuntu Linux ##
 Register an account at Digital Ocean through referral link https://m.do.co/c/9f9d58f02cb0
 
