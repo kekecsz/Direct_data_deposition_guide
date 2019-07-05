@@ -343,7 +343,7 @@ User:	root@[Droplet_Name]:/# ssh-add /root/.ssh/id_rsa
 Console:Identity added: root/.ssh/id_rsa (root/.ssh/id_rsa)
 User:	root@[Droplet_Name]:/# cat /root/.ssh/id_rsa.pub
 Console:
-	ssh-rsa AA...[Extremely long string of characters wereommited here]...Rw== [Github_Email]
+	ssh-rsa AA...[Extremely long string of characters were ommited here]...Rw== [Github_Email]
 ```
 This long string of text is the SHH key.
 1. Leave PuTTY
