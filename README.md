@@ -1,2 +1,2 @@
 # Direct_data_deposition_guide
-Contains guides to set up direct data depisition, real-time deposition of data to GitHub as data flows in
+The file named "Guide to set up Direct Data Deposition from GDrive to GitHub.md" contains guides to set up direct data depisition, real-time deposition of data to GitHub as data flows in
