@@ -1,6 +1,11 @@
 # Data Upload Tool guide #
 This guide will help you to make your own server which runs on Linux and automatically synchronizes data from Google Drive to GitHub repository. If you won't encounter any errors, this shouldn't take longer than 2-3 hours.
 
+## Authors
+Pietro Rizzo - Lund University
+Endre Csikós - ELTE
+Zoltan Kekecs - ELTE and Lund University
+
 ## I. Setting up a server with Ubuntu Linux ##
 Register an account at Digital Ocean through referral link https://m.do.co/c/9f9d58f02cb0
 
