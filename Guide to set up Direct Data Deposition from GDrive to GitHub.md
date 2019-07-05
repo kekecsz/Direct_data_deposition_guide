@@ -3,7 +3,9 @@ This guide will help you to make your own server which runs on Linux and automat
 
 ## Authors
 Pietro Rizzo - Lund University
+
 Endre Csikós - ELTE
+
 Zoltan Kekecs - ELTE and Lund University
 
 ## I. Setting up a server with Ubuntu Linux ##
