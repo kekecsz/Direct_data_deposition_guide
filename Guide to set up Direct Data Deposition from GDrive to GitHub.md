@@ -4,11 +4,12 @@ This guide will help you to make your own server which runs on Linux and automat
 The guide is written up in a way that no prior expertise is needed with Linux or using remote servers.
 
 ## Authors
+Zoltan Kekecs - ELTE and Lund University
+
 Pietro Rizzo - Lund University
 
 Endre Csikós - ELTE
 
-Zoltan Kekecs - ELTE and Lund University
 
 ## Correspondance
 Contact Zoltan Kekecs via kekecs.zoltan@gmail.com
