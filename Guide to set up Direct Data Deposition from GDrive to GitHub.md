@@ -172,7 +172,7 @@ Console:
 	[[Remote_Name]]
 	type = drive
 	scope = drive
-	token = {"access_token":"ya29.GlsJBzUG29UGKl94ItLp30N-d_0k1zUkIIWmEetN3GR8bYaAmCCM_Yp36dsBWC1uXpKYxYzJkf6gh40lFA6sYwphkPHHx8Z-ajGYynG-YpX4yUfnu3IjHUssO9ah","token_type":"Bearer","refresh_token":"1/hyDJZAgL9WucRbdgaWtSTMnsU7YD2mxsHgv62T-HIIM","expiry":"2019-05-14T16:22:28.152944127Z"}
+	token = {"access_token":"ya29.GlsJBzU[...long string of characters...]HUssO9ah","token_type":"Bearer","refresh_token":"1/hyDJZAgL9WucRbdgaWtSTMnsU7YD2mxsHgv62T-HIIM","expiry":"2019-05-14T16:22:28.152944127Z"}
 	--------------------
 	y) Yes this is OK
 	e) Edit this remote
