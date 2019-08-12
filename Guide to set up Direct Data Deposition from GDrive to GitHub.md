@@ -30,7 +30,7 @@ While you are on your Digital Ocean page, click the green "Create" button in the
 Make the following choices in the menu that follows:
 "Choose an Image" -> Ubuntu 16.04.6 x64. (The version number will probably be higher by the time you read this guide) Updates happen.
 
-"Plan option" -> *Standard*. $5/month, $0.007/hour, 1 GB/1 CPU, 25 GB SSD disk, 1000 GB transfer
+"Plan option" -> **Standard**. $5/month, $0.007/hour, 1 GB/1 CPU, 25 GB SSD disk, 1000 GB transfer
 
 Bakcups are not necessary.
 
@@ -99,15 +99,15 @@ Now PuTTY will open a console to your remote server. Login (username: "root", pa
 
 ctrl+c and ctrl+v does not work in the console. However, when using putty, you can copy and paste things using other hotkeys:
 
-You can *copy text* from the console by selecting it with your mouse, move your cursor to the very end of selection (not before, not after! Exactly where the highlighted portion of text ends) and press the middle mouse button. This will copy the selected text onto your computer clipboard when using Windows. 
+You can **copy text** from the console by selecting it with your mouse, move your cursor to the very end of selection (not before, not after! Exactly where the highlighted portion of text ends) and press the middle mouse button. This will copy the selected text onto your computer clipboard when using Windows. 
 
-In order to *paste text* from your clipboard into the PuTTY console, press the right mouse button of your mouse.
+In order to **paste text** from your clipboard into the PuTTY console, press the right mouse button of your mouse.
 
 ## II. Setting up the Google Drive Sync ##
 
 ### Linking a Google Drive folder to a folder on your droplet ###
 
-First You should create a folder in your Google Drive root section. I suggest naming the folder *testfolder*. You should also put a few files in this folder. It is OK if they are just text filed or documents, just so that you can test whether everything works as intended.
+First You should create a folder in your Google Drive root section. I suggest naming the folder **testfolder**. You should also put a few files in this folder. It is OK if they are just text filed or documents, just so that you can test whether everything works as intended.
 
 
 Go back to PuTTY:
@@ -121,7 +121,7 @@ User:	root@[Droplet_Name]:/srv/test_git_folder#
 User:	root@[Droplet_Name]:/srv/test_git_folder# mkdir gdrive
 User:	root@[Droplet_Name]:/srv/test_git_folder# cd gdrive
 ```
-*gdrive* is the "local" folder on your remote server which we are going to sync with the Google Drive folder.
+**gdrive** is the "local" folder on your remote server which we are going to sync with the Google Drive folder.
 ```
 User:	root@[Droplet_Name]:/srv/test_git_folder/gdrive# rclone config
 Console:
@@ -220,7 +220,7 @@ User:	root@[Droplet_Name]:/srv# mkdir cron_script
 User:	root@[Droplet_Name]:/srv# cd cron_script
 ```
 
-The folder *cron_script* is going to be the folder containing the script file that cron will have to execute periodically. Now we write the actual script that will synchronize the folders. This script will be stored in a simple text file called rclone-cron.sh, which we can create and edit using the nano text editor in Linux.
+The folder **cron_script** is going to be the folder containing the script file that cron will have to execute periodically. Now we write the actual script that will synchronize the folders. This script will be stored in a simple text file called rclone-cron.sh, which we can create and edit using the nano text editor in Linux.
 
 
 ```
@@ -260,7 +260,7 @@ Console:
 User:	Choose 1-4 [2]: 2 
 ```
 
-Make sure that you select */bin/nano* as it doesn't always appear as the second option.
+Make sure that you select **/bin/nano** as it doesn't always appear as the second option.
 
 ```
 Console:
